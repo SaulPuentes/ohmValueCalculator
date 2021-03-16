@@ -6,7 +6,8 @@
   "scripts": {
     "app": "node app.js",
     "start": "node index.js",
-    "test": "mocha"
+    "test": "mocha",
+    "new-test": "mocha test/IToleranceCalculator.js"
   },
   "author": "",
   "license": "ISC",

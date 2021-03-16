@@ -51,7 +51,7 @@ const calculateTolerance = (bandDColor = '') => {
 
     // Validate bandDColor
     if ( !colorTolerance[bandDColor] ) {
-        throw Error(`The Band D Color (${bandDColor}) is not on the list of chart of colors`)
+        throw Error(`The Band D Color (${bandDColor}) is not on the list chart of colors`)
     }
 
     // Tolerance

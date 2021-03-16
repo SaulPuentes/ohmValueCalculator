@@ -10,6 +10,14 @@ describe('IOhmValueCalculator', function() {
       expect(calc.calculateTolerance('silver')).to.be.a('number');
     })
 
+    it('should return 1 on brown Uppercase', function() {
+        assert.strictEqual(calc.calculateTolerance('brown'), 1);
+    });
+
+    it('should return 2 on red Uppercase', function() {
+        assert.strictEqual(calc.calculateTolerance('red'), 2);
+    });
+
     it('should return 10 on Silver Uppercase', function() {
         assert.strictEqual(calc.calculateTolerance('SILVER'), 10);
     });

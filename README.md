@@ -59,6 +59,9 @@ Colors to Band C
 ## Run Tests
 `npm test`
 
+## Run New Test
+`npm run new-test`
+
 ## Still missing
 * For the moment I am only using the first 3 colors, so the 4th color is useless 
 * I think it will be fine to implement some to string to show something like 56k Ohms 2%
