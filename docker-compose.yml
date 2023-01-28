@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+ app:
+    container_name: historical-weather-app
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/usr/src/app
